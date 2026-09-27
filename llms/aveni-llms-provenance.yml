@@ -1,0 +1,6 @@
+generated: '2026-09-26'
+method: probed
+generator: harvest-llms.py
+source: https://aveni.ai/llms.txt
+bytes: 58682
+note: saved verbatim; the provider's own document
