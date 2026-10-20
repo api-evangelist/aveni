@@ -1,4 +1,24 @@
 edges:
+- partner_name: Genesys (own)
+  partner: genesys
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://appfoundry.genesys.com/filter/genesyscloud/listing/3775d95b-303b-49f5-936e-e9ed1080bb0d
+  mirror_of: genesys/integrations/genesys-integration-edges.yml
+  apps:
+  - Aveni Detect
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+  category: businessOptimization|operations
+  publisher_verified:
+  - attestation:gdpr
+  - attestation:iso
 - partner_name: Zoom (own)
   partner: zoom
   partner_match: mirror
@@ -21,4 +41,5 @@ method: searched
 source:
 - zoom/integrations/zoom-integration-edges.yml
 checked:
+- genesys/integrations/genesys-integration-edges.yml
 - zoom/integrations/zoom-integration-edges.yml
